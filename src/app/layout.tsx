@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/custom/header";
 import Footer from "@/components/custom/footer";
 import Providers from "@/providers";
+import { BackgroundBeams } from "@/components/ui/background-beams";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,6 +25,7 @@ export default function RootLayout({
           <Header />
           {children}
           <Footer />
+          <BackgroundBeams />
         </Providers>
       </body>
     </html>

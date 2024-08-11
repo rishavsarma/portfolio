@@ -1,7 +1,14 @@
-import React from "react";
+import { TracingBeam } from "@/components/ui/tracing-beam";
+import Hero from "./_hero";
+import Projects from "./_projects";
 
 const Home = () => {
-  return <div>Portfolio</div>;
+  return (
+    <>
+      <Hero />
+      <Projects />
+    </>
+  );
 };
 
 export default Home;

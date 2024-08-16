@@ -5,14 +5,13 @@ import { SignupFormDemo } from "./_contact";
 
 const Home = () => {
   return (
-    <>
-      <Hero />
-      <Projects />
-      <div className="flex justify-end container">
-        {" "}
-        <SignupFormDemo />
-      </div>
-    </>
+      <>
+          <Hero />
+          <Projects />
+          <div className="flex justify-end container">
+              <SignupFormDemo />
+          </div>
+      </>
   );
 };
 
